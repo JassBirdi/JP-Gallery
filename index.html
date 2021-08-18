@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,100;1,200&amp;display=swap"
+    rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>welcome in Jp Gallery</title>
+</head>
+<script>
+  $(document).ready(function () {
+    $('.customer-logos').slick({
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1500,
+      arrows: false,
+      dots: false,
+      pauseOnHover: false,
+      responsive: [{
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 4
+        }
+      }, {
+        breakpoint: 520,
+        settings: {
+          slidesToShow: 3
+        }
+      }]
+    });
+  });
+</script>
+
+<body>
+  <div id="gallery" class="">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <div class="logo">
+          <a class="navbar-brand" href="#"><img src="jp-logo.png" alt=""></a>
+        </div>
+
+        <div class="menu">
+          <a href="" data-toggle="modal" data-target="#exampleModal" class="main-logo">Menu</a>
+          <div class="modal fade modal-fullscreen" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">JP Gallery</h5>
+
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true" style="color: #fff; font-size: 50px;">&times;</span>
+                </button>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="text-center">
+                        <a href="#gallery">Home</a>
+                        <a href="#about">About Us</a>
+                        <a href="">Our Collection</a>
+                        <a href="">Contact</a>
+                      </div>
+                    </div>
+                  </div>
+                  <br><br>
+                  <div class="d-lg-block d-none">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/5.jpg" alt="" class="img-fluid">
+                      </div>
+                      <div class="col-4">
+                        <img src="img/3.jpg" alt="" class="img-fluid">
+                      </div>
+                      <div class="col-4">
+                        <img src="img/4.jpg" alt="" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/4.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/3.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/5.jpg" alt="Third slide">
+          </div>
+        </div>
+
+      </div>
+      <div class="gallery-part1" id="about">
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <img src="img/about.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-6 col-12">
+            <div class="about-info">
+              <h2>About Us</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat harum accusamus hic dignissimos ipsam
+                iure, dolorum esse repudiandae unde? Deleniti iure, commodi architecto accusantium illum nesciunt
+                aliquam
+                corrupti obcaecati sequi!</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="gallery-part2">
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <div class="row">
+              <h2>Latest Updates</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quasi deserunt inventore totam modi
+                voluptatem consequatur quisquam iure? Ducimus cumque officia similique praesentium eligendi
+                reprehenderit
+                recusandae eveniet nam quas asperiores.
+              </p>
+            </div>
+            <div class="row pt-5">
+              <h2>Latest Updates</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quasi deserunt inventore totam modi
+                voluptatem consequatur quisquam iure? Ducimus cumque officia similique praesentium eligendi
+                reprehenderit
+                recusandae eveniet nam quas asperiores.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <img src="img/side.gif" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="gallery-part3">
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <h2>Exhibition Date</h2>
+            <p>2021</p>
+          </div>
+          <div class="col-md-6 col-12">
+            <h2>Exhibition Details</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse, officiis quam ipsam voluptatum
+              asperiores expedita beatae hic enim minima doloribus ratione optio cum labore corporis error. Aliquam,
+              repellendus expedita.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-part4" id="collection">
+
+        <section class="customer-logos slider">
+          <div class="slide"><img src="img/e1.png"></div>
+          <div class="slide"><img src="img/e2.png"></div>
+          <div class="slide"><img src="img/e3.png"></div>
+          <div class="slide"><img src="img/e4.png"></div>
+          <div class="slide"><img src="img/e5.png"></div>
+          <div class="slide"><img src="img/e6.png"></div>
+          <div class="slide"><img src="img/e7.png"></div>
+          <div class="slide"><img src="img/e8.png"></div>
+          <div class="slide"><img src="img/e9.png"></div>
+        </section>
+      </div>
+
+    </div>
+    <div class="gallery-part5" id="contact">
+      <div class="row text-center mx-auto">
+        <div class="col-12">
+          <div class="contact-form">
+            <form method="post" class="pt-5" id="">
+              <div class="form-group pt-3">
+                <input type="text" class="form-control form-fields" id="exampleFormControlInput1" placeholder="Name"
+                  name="client_name" required="">
+              </div>
+              <div class="form-group pt-3">
+                <input type="email" class="form-control form-fields" id="exampleFormControlInput1" placeholder="Email"
+                  name="client_email" required="">
+              </div>
+              <div class="form-group pt-3">
+                <div class="row">
+                  <div class="col-5">
+                    <select class="form-control form-fields" name="country" id="country" style="color:gray;">
+                      <option value="">Country</option>
+                      <option data-isd_code="+93" value="AF">Afghanistan</option>
+                      <option data-isd_code="+355" value="AL">Albania</option>
+                      <option data-isd_code="+213" value="DZ">Algeria</option>
+                      <option data-isd_code="+1-684" value="AS">American Samoa</option>
+                      <option data-isd_code="+376" value="AD">Andorra</option>
+                      <option data-isd_code="+244" value="AO">Angola</option>
+                      <option data-isd_code="+1-264" value="AI">Anguilla</option>
+                      <option data-isd_code="+672" value="AQ">Antarctica</option>
+                      <option data-isd_code="+1-268" value="AG">Antigua and Barbuda</option>
+                      <option data-isd_code="+54" value="AR">Argentina</option>
+                      <option data-isd_code="+374" value="AM">Armenia</option>
+                      <option data-isd_code="+297" value="AW">Aruba</option>
+                      <option data-isd_code="+61" value="AU">Australia</option>
+                      <option data-isd_code="+43" value="AT">Austria</option>
+                      <option data-isd_code="+994" value="AZ">Azerbaijan</option>
+                      <option data-isd_code="+1-242" value="BS">Bahamas</option>
+                      <option data-isd_code="+973" value="BH">Bahrain</option>
+                      <option data-isd_code="+880" value="BD">Bangladesh</option>
+                      <option data-isd_code="+1-246" value="BB">Barbados</option>
+                      <option data-isd_code="+375" value="BY">Belarus</option>
+                      <option data-isd_code="+32" value="BE">Belgium</option>
+                      <option data-isd_code="+501" value="BZ">Belize</option>
+                      <option data-isd_code="+229" value="BJ">Benin</option>
+                      <option data-isd_code="+1-441" value="BM">Bermuda</option>
+                      <option data-isd_code="+975" value="BT">Bhutan</option>
+                      <option data-isd_code="+591" value="BO">Bolivia</option>
+                      <option data-isd_code="+387" value="BA">Bosnia and Herzegowina</option>
+                      <option data-isd_code="+267" value="BW">Botswana</option>
+                      <option data-isd_code="+47" value="BV">Bouvet Island</option>
+                      <option data-isd_code="+55" value="BR">Brazil</option>
+                      <option data-isd_code="+246" value="IO">British Indian Ocean Territory</option>
+                      <option data-isd_code="+673" value="BN">Brunei Darussalam</option>
+                      <option data-isd_code="+359" value="BG">Bulgaria</option>
+                      <option data-isd_code="+226" value="BF">Burkina Faso</option>
+                      <option data-isd_code="+257" value="BI">Burundi</option>
+                      <option data-isd_code="+855" value="KH">Cambodia</option>
+                      <option data-isd_code="+237" value="CM">Cameroon</option>
+                      <option data-isd_code="+1" value="CA">Canada</option>
+                      <option data-isd_code="+238" value="CV">Cape Verde</option>
+                      <option data-isd_code="+1-345" value="KY">Cayman Islands</option>
+                      <option data-isd_code="+236" value="CF">Central African Republic</option>
+                      <option data-isd_code="+235" value="TD">Chad</option>
+                      <option data-isd_code="+56" value="CL">Chile</option>
+                      <option data-isd_code="+86" value="CN">China</option>
+                      <option data-isd_code="+61" value="CX">Christmas Island</option>
+                      <option data-isd_code="+61" value="CC">Cocos (Keeling) Islands</option>
+                      <option data-isd_code="+57" value="CO">Colombia</option>
+                      <option data-isd_code="+269" value="KM">Comoros</option>
+                      <option data-isd_code="+242" value="CG">Congo Democratic Republic of</option>
+                      <option data-isd_code="+682" value="CK">Cook Islands</option>
+                      <option data-isd_code="+506" value="CR">Costa Rica</option>
+                      <option data-isd_code="+225" value="CI">Cote D'Ivoire</option>
+                      <option data-isd_code="+385" value="HR">Croatia</option>
+                      <option data-isd_code="+53" value="CU">Cuba</option>
+                      <option data-isd_code="+357" value="CY">Cyprus</option>
+                      <option data-isd_code="+420" value="CZ">Czech Republic</option>
+                      <option data-isd_code="+45" value="DK">Denmark</option>
+                      <option data-isd_code="+253" value="DJ">Djibouti</option>
+                      <option data-isd_code="+1-767" value="DM">Dominica</option>
+                      <option data-isd_code="+1-809" value="DO">Dominican Republic</option>
+                      <option data-isd_code="+670" value="TL">Timor-Leste</option>
+                      <option data-isd_code="+593" value="EC">Ecuador</option>
+                      <option data-isd_code="+20" value="EG">Egypt</option>
+                      <option data-isd_code="+503" value="SV">El Salvador</option>
+                      <option data-isd_code="+240" value="GQ">Equatorial Guinea</option>
+                      <option data-isd_code="+291" value="ER">Eritrea</option>
+                      <option data-isd_code="+372" value="EE">Estonia</option>
+                      <option data-isd_code="+251" value="ET">Ethiopia</option>
+                      <option data-isd_code="+500" value="FK">Falkland Islands (Malvinas)</option>
+                      <option data-isd_code="+298" value="FO">Faroe Islands</option>
+                      <option data-isd_code="+679" value="FJ">Fiji</option>
+                      <option data-isd_code="+358" value="FI">Finland</option>
+                      <option data-isd_code="+33" value="FR">France</option>
+                      <option data-isd_code="+594" value="GF">French Guiana</option>
+                      <option data-isd_code="+689" value="PF">French Polynesia</option>
+                      <option data-isd_code="+" value="TF">French Southern Territories</option>
+                      <option data-isd_code="+241" value="GA">Gabon</option>
+                      <option data-isd_code="+220" value="GM">Gambia</option>
+                      <option data-isd_code="+995" value="GE">Georgia</option>
+                      <option data-isd_code="+49" value="DE">Germany</option>
+                      <option data-isd_code="+233" value="GH">Ghana</option>
+                      <option data-isd_code="+350" value="GI">Gibraltar</option>
+                      <option data-isd_code="+30" value="GR">Greece</option>
+                      <option data-isd_code="+299" value="GL">Greenland</option>
+                      <option data-isd_code="+1-473" value="GD">Grenada</option>
+                      <option data-isd_code="+590" value="GP">Guadeloupe</option>
+                      <option data-isd_code="+1-671" value="GU">Guam</option>
+                      <option data-isd_code="+502" value="GT">Guatemala</option>
+                      <option data-isd_code="+224" value="GN">Guinea</option>
+                      <option data-isd_code="+245" value="GW">Guinea-bissau</option>
+                      <option data-isd_code="+592" value="GY">Guyana</option>
+                      <option data-isd_code="+509" value="HT">Haiti</option>
+                      <option data-isd_code="+011" value="HM">Heard Island and McDonald Islands</option>
+                      <option data-isd_code="+504" value="HN">Honduras</option>
+                      <option data-isd_code="+852" value="HK">Hong Kong</option>
+                      <option data-isd_code="+36" value="HU">Hungary</option>
+                      <option data-isd_code="+354" value="IS">Iceland</option>
+                      <option selected="" data-isd_code="+91" value="IN">India</option>
+                      <option data-isd_code="+62" value="ID">Indonesia</option>
+                      <option data-isd_code="+98" value="IR">Iran (Islamic Republic of)</option>
+                      <option data-isd_code="+964" value="IQ">Iraq</option>
+                      <option data-isd_code="+353" value="IE">Ireland</option>
+                      <option data-isd_code="+972" value="IL">Israel</option>
+                      <option data-isd_code="+39" value="IT">Italy</option>
+                      <option data-isd_code="+1-876" value="JM">Jamaica</option>
+                      <option data-isd_code="+81" value="JP">Japan</option>
+                      <option data-isd_code="+962" value="JO">Jordan</option>
+                      <option data-isd_code="+7" value="KZ">Kazakhstan</option>
+                      <option data-isd_code="+254" value="KE">Kenya</option>
+                      <option data-isd_code="+686" value="KI">Kiribati</option>
+                      <option data-isd_code="+850" value="KP">Korea, Democratic People's Republic of</option>
+                      <option data-isd_code="+82" value="KR">South Korea</option>
+                      <option data-isd_code="+965" value="KW">Kuwait</option>
+                      <option data-isd_code="+996" value="KG">Kyrgyzstan</option>
+                      <option data-isd_code="+856" value="LA">Lao People's Democratic Republic</option>
+                      <option data-isd_code="+371" value="LV">Latvia</option>
+                      <option data-isd_code="+961" value="LB">Lebanon</option>
+                      <option data-isd_code="+266" value="LS">Lesotho</option>
+                      <option data-isd_code="+231" value="LR">Liberia</option>
+                      <option data-isd_code="+218" value="LY">Libya</option>
+                      <option data-isd_code="+423" value="LI">Liechtenstein</option>
+                      <option data-isd_code="+370" value="LT">Lithuania</option>
+                      <option data-isd_code="+352" value="LU">Luxembourg</option>
+                      <option data-isd_code="+853" value="MO">Macao</option>
+                      <option data-isd_code="+389" value="MK">Macedonia, The Former Yugoslav Republic of</option>
+                      <option data-isd_code="+261" value="MG">Madagascar</option>
+                      <option data-isd_code="+265" value="MW">Malawi</option>
+                      <option data-isd_code="+60" value="MY">Malaysia</option>
+                      <option data-isd_code="+960" value="MV">Maldives</option>
+                      <option data-isd_code="+223" value="ML">Mali</option>
+                      <option data-isd_code="+356" value="MT">Malta</option>
+                      <option data-isd_code="+692" value="MH">Marshall Islands</option>
+                      <option data-isd_code="+596" value="MQ">Martinique</option>
+                      <option data-isd_code="+222" value="MR">Mauritania</option>
+                      <option data-isd_code="+230" value="MU">Mauritius</option>
+                      <option data-isd_code="+262" value="YT">Mayotte</option>
+                      <option data-isd_code="+52" value="MX">Mexico</option>
+                      <option data-isd_code="+691" value="FM">Micronesia, Federated States of</option>
+                      <option data-isd_code="+373" value="MD">Moldova</option>
+                      <option data-isd_code="+377" value="MC">Monaco</option>
+                      <option data-isd_code="+976" value="MN">Mongolia</option>
+                      <option data-isd_code="+1-664" value="MS">Montserrat</option>
+                      <option data-isd_code="+212" value="MA">Morocco</option>
+                      <option data-isd_code="+258" value="MZ">Mozambique</option>
+                      <option data-isd_code="+95" value="MM">Myanmar</option>
+                      <option data-isd_code="+264" value="NA">Namibia</option>
+                      <option data-isd_code="+674" value="NR">Nauru</option>
+                      <option data-isd_code="+977" value="NP">Nepal</option>
+                      <option data-isd_code="+31" value="NL">Netherlands</option>
+                      <option data-isd_code="+599" value="AN">Netherlands Antilles</option>
+                      <option data-isd_code="+687	" value="NC">New Caledonia</option>
+                      <option data-isd_code="+64" value="NZ">New Zealand</option>
+                      <option data-isd_code="+505" value="NI">Nicaragua</option>
+                      <option data-isd_code="+227" value="NE">Niger</option>
+                      <option data-isd_code="+234" value="NG">Nigeria</option>
+                      <option data-isd_code="+683" value="NU">Niue</option>
+                      <option data-isd_code="+672" value="NF">Norfolk Island</option>
+                      <option data-isd_code="+1-670" value="MP">Northern Mariana Islands</option>
+                      <option data-isd_code="+47" value="NO">Norway</option>
+                      <option data-isd_code="+968" value="OM">Oman</option>
+                      <option data-isd_code="+92" value="PK">Pakistan</option>
+                      <option data-isd_code="+680" value="PW">Palau</option>
+                      <option data-isd_code="+507" value="PA">Panama</option>
+                      <option data-isd_code="+675" value="PG">Papua New Guinea</option>
+                      <option data-isd_code="+595" value="PY">Paraguay</option>
+                      <option data-isd_code="+51" value="PE">Peru</option>
+                      <option data-isd_code="+63" value="PH">Philippines</option>
+                      <option data-isd_code="+64" value="PN">Pitcairn</option>
+                      <option data-isd_code="+48" value="PL">Poland</option>
+                      <option data-isd_code="+351" value="PT">Portugal</option>
+                      <option data-isd_code="+1-787" value="PR">Puerto Rico</option>
+                      <option data-isd_code="+974" value="QA">Qatar</option>
+                      <option data-isd_code="+262" value="RE">Reunion</option>
+                      <option data-isd_code="+40" value="RO">Romania</option>
+                      <option data-isd_code="+7" value="RU">Russia</option>
+                      <option data-isd_code="+250" value="RW">Rwanda</option>
+                      <option data-isd_code="+1-869" value="KN">Saint Kitts and Nevis</option>
+                      <option data-isd_code="+1-758" value="LC">Saint Lucia</option>
+                      <option data-isd_code="+1-784" value="VC">Saint Vincent and the Grenadines</option>
+                      <option data-isd_code="+685" value="WS">Samoa</option>
+                      <option data-isd_code="+378" value="SM">San Marino</option>
+                      <option data-isd_code="+239" value="ST">Sao Tome and Principe</option>
+                      <option data-isd_code="+966" value="SA">Saudi Arabia</option>
+                      <option data-isd_code="+221" value="SN">Senegal</option>
+                      <option data-isd_code="+248" value="SC">Seychelles</option>
+                      <option data-isd_code="+232" value="SL">Sierra Leone</option>
+                      <option data-isd_code="+65" value="SG">Singapore</option>
+                      <option data-isd_code="+421" value="SK">Slovakia (Slovak Republic)</option>
+                      <option data-isd_code="+386" value="SI">Slovenia</option>
+                      <option data-isd_code="+677" value="SB">Solomon Islands</option>
+                      <option data-isd_code="+252" value="SO">Somalia</option>
+                      <option data-isd_code="+27" value="ZA">South Africa</option>
+                      <option data-isd_code="+500" value="GS">South Georgia and the South Sandwich Islands</option>
+                      <option data-isd_code="+34" value="ES">Spain</option>
+                      <option data-isd_code="+94" value="LK">Sri Lanka</option>
+                      <option data-isd_code="+290" value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+                      <option data-isd_code="+508" value="PM">St. Pierre and Miquelon</option>
+                      <option data-isd_code="+249" value="SD">Sudan</option>
+                      <option data-isd_code="+597" value="SR">Suriname</option>
+                      <option data-isd_code="+47" value="SJ">Svalbard and Jan Mayen Islands</option>
+                      <option data-isd_code="+268" value="SZ">Swaziland</option>
+                      <option data-isd_code="+46" value="SE">Sweden</option>
+                      <option data-isd_code="+41" value="CH">Switzerland</option>
+                      <option data-isd_code="+963" value="SY">Syrian Arab Republic</option>
+                      <option data-isd_code="+886" value="TW">Taiwan</option>
+                      <option data-isd_code="+992" value="TJ">Tajikistan</option>
+                      <option data-isd_code="+255" value="TZ">Tanzania, United Republic of</option>
+                      <option data-isd_code="+66" value="TH">Thailand</option>
+                      <option data-isd_code="+228" value="TG">Togo</option>
+                      <option data-isd_code="+690" value="TK">Tokelau</option>
+                      <option data-isd_code="+676" value="TO">Tonga</option>
+                      <option data-isd_code="+1-868" value="TT">Trinidad and Tobago</option>
+                      <option data-isd_code="+216" value="TN">Tunisia</option>
+                      <option data-isd_code="+90" value="TR">Turkey</option>
+                      <option data-isd_code="+993" value="TM">Turkmenistan</option>
+                      <option data-isd_code="+1-649" value="TC">Turks and Caicos Islands</option>
+                      <option data-isd_code="+688" value="TV">Tuvalu</option>
+                      <option data-isd_code="+256" value="UG">Uganda</option>
+                      <option data-isd_code="+380" value="UA">Ukraine</option>
+                      <option data-isd_code="+971" value="AE">United Arab Emirates</option>
+                      <option data-isd_code="+44" value="GB">United Kingdom</option>
+                      <option data-isd_code="+1" value="US">United States</option>
+                      <option data-isd_code="+246" value="UM">United States Minor Outlying Islands</option>
+                      <option data-isd_code="+598" value="UY">Uruguay</option>
+                      <option data-isd_code="+998" value="UZ">Uzbekistan</option>
+                      <option data-isd_code="+678" value="VU">Vanuatu</option>
+                      <option data-isd_code="+379" value="VA">Vatican City State (Holy See)</option>
+                      <option data-isd_code="+58" value="VE">Venezuela</option>
+                      <option data-isd_code="+84" value="VN">Vietnam</option>
+                      <option data-isd_code="+1-284" value="VG">Virgin Islands (British)</option>
+                      <option data-isd_code="+1-340" value="VI">Virgin Islands (U.S.)</option>
+                      <option data-isd_code="+681" value="WF">Wallis and Futuna Islands</option>
+                      <option data-isd_code="+212" value="EH">Western Sahara</option>
+                      <option data-isd_code="+967" value="YE">Yemen</option>
+                      <option data-isd_code="+381" value="RS">Serbia</option>
+                      <option data-isd_code="+260" value="ZM">Zambia</option>
+                      <option data-isd_code="+263" value="ZW">Zimbabwe</option>
+                      <option data-isd_code="+358" value="AX">Aaland Islands</option>
+                      <option data-isd_code="+970" value="PS">Palestine</option>
+                      <option data-isd_code="+382" value="ME">Montenegro</option>
+                      <option data-isd_code="+44-1481" value="GG">Guernsey</option>
+                      <option data-isd_code="+44-1624" value="IM">Isle of Man</option>
+                      <option data-isd_code="+44-1534" value="JE">Jersey</option>
+                      <option data-isd_code="+599" value="CW">Curaçao</option>
+                      <option data-isd_code="+225" value="CI">Ivory Coast</option>
+                      <option data-isd_code="+383" value="XK">Kosovo</option>
+                    </select>
+                  </div>
+
+                  <div class="col-7">
+                    <input type="tel" class="form-control form-fields" id="" placeholder="Phone no." name="client_phone"
+                      required="">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group pt-3">
+                <textarea class="form-control form-fields" id="exampleFormControlTextarea1" rows="3"
+                  placeholder="Massage" name="message" required=""></textarea>
+              </div>
+
+              <div class="text-center mt-1">
+                <button type="submit" class="btn btn-warning text-center" name="submit">Send Message</button>
+              </div>
+              <br>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-md-4 col-12">
+          <h2>Get in Touch</h2>
+          <p class="pt-4">+52626565656</p>
+          <p>Lorem, ipsum </p>
+        </div>
+        <div class="col-md-3 col-12">
+          <h2>Information</h2>
+          <a href="#gallery" class="pt-4">Home</a><br>
+          <a href="#about">About Us</a><br>
+          <a href="#gallery">Our Collection</a><br>
+          <a href="#contact">Contact Us</a><br>
+        </div>
+        <div class="col-md-5 col-12">
+        <h2>Stay Connected</h2>
+          <div class="row pb-3 pt-md-4">
+            <div class="col-2 follows-logo">
+              <a href=""><img src="img/fb-logo.png" alt="" height="50"
+                  width="50"></a>
+            </div>
+            <div class="col-2 mx-lg-2 mx-1">
+              <a href=""><img src="img/insta-logo.png" alt=""
+                  height="50" width="50"></a>
+            </div>
+            <div class="col-2 mx-lg-2 mx-1">
+              <a href=""><img src="img/twitter-logo.png" alt="" height="50"
+                  width="50"></a>
+            </div>
+            <div class="col-2 mx-lg-2 mx-1">
+              <a href="/"><img src="img/linkedin-logo.png" alt=""
+                  height="50" width="50"></a>
+            </div>
+            
+          </div>
+        </div>
+       
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
